@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1dpV1xqkfgxcrv0Tg09_hGI8P1PWo-VEYcA&usqp=CAU" alt="">
+        <h3>Dr. Manik Dalvi</h3>
+        <p>Obstetrics & Gynecology</p>
+        <p>MBBS, MS</p>
+        <button id="bookingButton">BOOK APPOINTMENT</button>
+    </div>
+</body>
+</html>
+<script>
+     function showBookingAlert() {
+    alert('Booking Successful!');
+    self.location = "profile.html"
+    
+  }
+//   window.location.href("profile.html")
+  document.getElementById('bookingButton').addEventListener('click', showBookingAlert);
+</script>
